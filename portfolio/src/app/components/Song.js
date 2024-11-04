@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Music, ChevronLeft, ChevronRight, Volume2, SkipForward, SkipBack, Zap } from 'lucide-react';
 
 const playlists = {
-  playlist1: ['/playlist1/song1.mp3', '/playlist1/song2.mp3'],
-  playlist2: ['/playlist2/song1.mp3', '/playlist2/song2.mp3'],
+  playlist1: ['/playlist1/song1.mp3'],
+  playlist2: ['/playlist2/song1.mp3'],
 };
 
 const Song = ({ isPlaying, toggleMusicPlay, audioRef }) => {
